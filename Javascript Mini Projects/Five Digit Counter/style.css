@@ -1,0 +1,110 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* body */
+body{
+  background : linear-gradient(rgb(104, 69, 69) , rgb(65, 34, 57));
+  height : 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.upper-div{
+    padding : 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+    background-color: rgb(15, 10, 12);
+}
+div{
+    margin-bottom : 2rem;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.stat{
+    color : white;
+    font-weight: 720;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+input{
+    padding : 0.375rem 0.75rem;
+    outline : none;
+    width : 15rem;
+    color : black;
+    font-size: 1rem;
+}
+
+button{
+    background-color: lightpink;
+    padding : 0.375rem 0.675rem;
+    color : white;    
+    font-size : 1rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: center;
+    outline : none;
+    border : 1px solid transparent;
+    border-radius: 18px;
+  
+}
+
+button:hover{
+    background-color: rgb(190, 119, 129);
+}
+
+.lower-div{
+    background-color: pink;
+    height : 16rem;
+    width : 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index : 25;
+}
+.count {
+    width : 15%;
+    max-width: 80px;
+    height : 80px;
+    overflow: hidden;
+    position: relative;
+   background-color: aliceblue;
+   border-top: 2px solid black ;
+   color : black;
+   margin : auto 10px;
+   box-shadow: 2px solid white;
+   text-align: center;
+}
+
+.count p{
+    line-height: 80px;
+    width : 100%;
+    font-size: 3rem;
+    background-color: aliceblue;
+}
+
+.counter2{
+    border-top: 2px solid black ;
+    position : absolute;
+    top : 80px;
+}
+
+.animate{
+    transition-duration: 1s;
+    top : 0;
+}
+
+

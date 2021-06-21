@@ -1,0 +1,22 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+#obj{
+    width : 8rem;
+    height : 8rem;
+    background-color: rgb(18, 195, 136);
+    position: absolute;
+    top : 45%;
+    left: 45%;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+}
+
+span{
+    color : rgb(248, 248, 248);
+    font-size: 2rem;
+    font-weight: 700;
+}
